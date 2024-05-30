@@ -4,7 +4,8 @@ HOLY $#!+ I Repeat!! USERLAND DOES NOT CRASH WHEN LOADING HEAVY MODELS OR USEING
 
 
 Install stable-diffusion-webui-forge on USERLAND (Android)
-This will guide you on installing Forge on USERLAND (Android) Make sure that you have a high-end phone to actually make this usable. On my phone with 12GB RAM, launch the webui alone take at least ~ 2 GB RAM, thus making it impossible to load any model and process further.
+This will guide you on installing Forge on USERLAND (Android) Make sure that you have a high-end phone to actually make this usable. On my phone with 12GB RAM, launch the webui alone take at least ~ 2 GB RAM,but loading more than 2 models makes loading models take dam near 45 minutes and I only had 3 sd1.5 lcm models downloaded. idk if there's an command to fix long model loading time. but good luck
+follow step by step its every easy to install everything is in order if u need help installing just make an issue and I'll try to respond as quickly if I have time or not at work 😀 thx and have fun.
 
 
 1. Prerequisites
