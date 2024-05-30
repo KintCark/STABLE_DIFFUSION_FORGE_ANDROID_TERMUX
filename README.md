@@ -1,3 +1,8 @@
+HOLY $#!+ I Repeat!! USERLAND DOES NOT CRASH WHEN LOADING HEAVY MODELS OR USEING HIGHRES OR REFINER!! MAYBE WE FINNALY CAN GET TEXT TO VIDEO ON OUR PHONES OFFLINE IDK U WOULD NEED LOTS OF RAM!! BUT I GOTA FIGURE OUT HOW TO DOWNLOAD SVD MODELS TO THE SVD FOLDER HOPEFULLY SOMEONE CAN MAKE AN FILE BROWSER EXTENSION FOR UBUNTU WHERE U CAN BROWSE THE ROOT USERLAN FOLDER WHERE STABLE DIFFUSION FORGE IS LOCATED!! sorry for all the caps I'm just excited 😊 
+
+
+
+
 Install stable-diffusion-webui-forge on USERLAND (Android)
 This will guide you on installing Forge on USERLAND (Android) Make sure that you have a high-end phone to actually make this usable. On my phone with 8GB RAM, launch the webui alone take at least ~ 2 GB RAM, thus making it impossible to load any model and process further.
 
