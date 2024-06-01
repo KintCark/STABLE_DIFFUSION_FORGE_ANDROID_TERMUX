@@ -1,21 +1,16 @@
-sdxl disconnect userland idk how to get it to load model.
-
-
-
-
-Install stable-diffusion-webui-forge on USERLAND (Android)
-This will guide you on installing Forge on USERLAND (Android) Make sure that you have a high-end phone to actually make this usable. On my phone with 12GB RAM, launch the webui alone take at least ~ 2 GB RAM,but loading more than 2 models makes loading models take dam near 45 minutes and I only had 3 sd1.5 lcm models downloaded. idk if there's an command to fix long model loading time. but good luck
-follow step by step its every easy to install everything is in order if u need help installing just make an issue and I'll try to respond as quickly if I have time or not at work 😀 thx and have fun.
+Install stable-diffusion-webui-forge on Termux (Android) + PRoot
+This will guide you on installing Forge on Termux (Android) + PRoot Distro. Make sure that you have a high-end phone to actually make this usable. On my phone with 12GB RAM, launch the webui alone take at least ~ 2 GB RAM,  but when loading models that u added ull have to let it load a few minutes then just restart the ui then the new models will load.
 
 
 1. Prerequisites
-First you have to install USERLAND then pick ubuntuwait for ubuntu to install then type sudo su press enter then start installing packages.once you finish completely installing forge u dont need to type sudo su again just use bottom launch command for restarting USERLAND 
+First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
 
 
-apt update && apt upgrade -y &&
-apt install wget -y && apt install git -y
+pkg updated && pkg upgrade -y && termux-setup-storage &&
+pkg install wget -y && pkg install git -y && pkg install proot -y &&
+cd ~ && git clone https://github.com/MFDGaming/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh -y && ./startubuntu.sh 
 
-2. Installing Forge
+2. Installing stable-diffusion-webui-forge
 Run below commands sequentially as root user in Ubuntu
 
 Install basic tools
@@ -33,37 +28,30 @@ git clone https://github.com/lllyasviel/stable-diffusion-webui-forge
 
 
 Change the current directory
+
 cd stable-diffusion-webui-forge
 
 
+You Dont Need This Command on newer android 13-14 it can cause crashes but every phone is different 
 'Fix' the issue with Python running in PRoot
-Newer Android doesn't need this it will cause problems
 
 export ANDROID_DATA=anything 
 
 Install required Python packages
+
 pip install -r requirements.txt 
 
 Launch the webui. It will take some time to complete first-time installation then everything should be fine
 
-python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --vae-in-cpu --no-half
-
+python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --vae-in-cpu
 
 Navigate to the webui in your browser
 http://127.0.0.1:7860 
 
-To start after rebooting Userland after first installation 
+To start after rebooting termux after first installation 
+
+cd ubuntu-in-termux && ./startubuntu.sh
 
 THEN PASTE BOTTOM COMMAND 
-
-cd stable-diffusion-webui-forge && python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --vae-in-cpu --no-half
-
-
-
-
-
-
-USE CIVBROWSER EXTENSION!!!
-to download models directly to your models folder cause u can't navigate userland folder in android.
-its better this way anyway also ull need your personal civitai api key
-just go to your Account settings scroll all the way down to bottom and slide the words over untill u see api then tap it.
+cd ubuntu-in-termux && ./startubuntu.sh
+cd stable-diffusion-webui-forge && python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --vae-in-cpu
