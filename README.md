@@ -1,6 +1,4 @@
-Install stable-diffusion-webui-forge on Termux (Android) + PRoot
-This will guide you on installing Forge on Termux (Android) + PRoot Distro. Make sure that you have a high-end phone to actually make this usable. On my phone with 12GB RAM, launch the webui alone take at least ~ 2 GB RAM,  but when loading models that u added ull have to let it load a few minutes then just restart the ui then the new models will load.
-
+THIS WORKS ON 8GB RAM!!! DON'T DISABLE PHANTOM PROCESSOR KILLER DOING THIS WILL MAKE ALL STABLE DIFFUSION TERMUX CRASH!!!
 
 1. Prerequisites
 First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
