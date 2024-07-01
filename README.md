@@ -1,4 +1,6 @@
-THIS WORKS ON 8GB RAM!!! DISABLE PHANTOM PROCESS KILLLER OR U WON'T BE ABLE TO MAKE IMAGES OVER 320X320!!!!
+SD 1.5 MODELS WORK ON 8GB RAM!!! SDXL Works Only On 12GB Ram Devices or More!!!
+
+DISABLE PHANTOM PROCESS KILLLER OR U WON'T BE ABLE TO MAKE IMAGES OVER 320X320!!!!
 
 1. Prerequisites
 First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
