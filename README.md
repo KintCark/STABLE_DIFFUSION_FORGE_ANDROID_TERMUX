@@ -30,7 +30,6 @@ Change the current directory
 cd stable-diffusion-webui-forge
 
 
-You Dont Need This Command on newer android 13-14 it can cause crashes but every phone is different 
 'Fix' the issue with Python running in PRoot
 
 export ANDROID_DATA=anything 
