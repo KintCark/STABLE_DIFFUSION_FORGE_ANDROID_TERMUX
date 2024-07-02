@@ -56,10 +56,6 @@ cd ubuntu-in-termux && ./startubuntu.sh
 cd stable-diffusion-webui-forge && python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --vae-in-cpu
 
 
-
-YOU NEED THIS TERMUX MOD VERSION THIS IS THE ONE I USED!
-
-
-https://github.com/KitsunedFox/termux-monet
+Use new termux 1.8.1.1 it's the latest we st released version and stable
 
 
