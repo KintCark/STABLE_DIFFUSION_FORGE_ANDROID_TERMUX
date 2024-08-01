@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 Launch the webui. It will take some time to complete first-time installation then everything should be fine
 
-python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --disable-model-loading-ram-optimization --unet-in-fp16 --vae-in-fp16 --vae-in-cpu --opt-sdp-attention --opt-sdp-no-mem-attention --opt-channelslast --precision autocast
+python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --disable-model-loading-ram-optimization --unet-in-fp8-e4m3fn --vae-in-cpu --opt-sdp-attention --opt-sdp-no-mem-attention --opt-channelslast --precision autocast
 
 Navigate to the webui in your browser
 http://127.0.0.1:7860 
