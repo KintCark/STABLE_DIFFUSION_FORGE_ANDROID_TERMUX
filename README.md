@@ -55,6 +55,6 @@ cd ubuntu-in-termux && ./startubuntu.sh
 cd stable-diffusion-webui-forge && python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --disable-model-loading-ram-optimization --unet-in-fp8-e4m3fn --vae-in-cpu --opt-channelslast --precision full
 
 
-Use new termux 1.8.1.1 it's the latest we st released version and stable
+Use new termux 1.9.1 beta it's the latest we st released version and stable
 
 
