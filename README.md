@@ -1,4 +1,4 @@
-SD 1.5 MODELS WORK ON 8GB RAM!!! SDXL Works Only On 12GB Ram Devices or More!!!
+Update091824:Forge fixed there memory issues it works on my phone now I can use sdxl flawless plus it's faster than confyui XD!!
 
 1. Prerequisites
 First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
@@ -41,8 +41,6 @@ pip install -r requirements_versions.txt
 
 Launch the webui. It will take some time to complete first-time installation then everything should be fine
 
-python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --vae-in-cpu --lowram --precision full --use-ipex --disable-model-loading-ram-optimization --lowvram --unet-in-fp8-e4m3fn --clip-in-fp8-e4m3fn
-
 Navigate to the webui in your browser
 http://127.0.0.1:7860 
 
@@ -52,8 +50,7 @@ cd ubuntu-in-termux && ./startubuntu.sh
 
 THEN PASTE BOTTOM COMMAND 
 cd ubuntu-in-termux && ./startubuntu.sh
-cd stable-diffusion-webui-forge && python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --disable-model-loading-ram-optimization --unet-in-fp8-e4m3fn --vae-in-cpu --opt-channelslast --precision full
-
+cd stable-diffusion-webui-forge && python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --vae-in-cpu --disable-model-loading-ram-optimization --unet-in-fp8-e4m3fn
 
 Use new termux 1.9.1 beta it's the latest we st released version and stable
 
