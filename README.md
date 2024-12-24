@@ -37,7 +37,7 @@ export ANDROID_DATA=anything
 
 Install required Python packages
 
-pip install -r requirements_versions.txt  
+pip install -r requirements_versions.txt --break-system-packages
 
 Launch the webui. It will take some time to complete first-time installation then everything should be fine
 
