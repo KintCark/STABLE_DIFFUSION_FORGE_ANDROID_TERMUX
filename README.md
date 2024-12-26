@@ -1,4 +1,5 @@
-Update091824:Forge fixed there memory issues it works on my phone now I can use sdxl flawless plus it's faster than confyui XD!!
+python 3.12 is not supported I can't launch the
+app I need someone to tell me how to create python 3.10.14 virtual environment I look all over the internet but none work. please if anyone know how tell me in issues.
 
 1. Prerequisites
 First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
