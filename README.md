@@ -1,5 +1,4 @@
-python 3.12 is not supported I can't launch the
-app I need someone to tell me how to create python 3.10.14 virtual environment I look all over the internet but none work. please if anyone know how tell me in issues.
+I fixed it all u gota do is navigate to the modules folder and replace the launch_utils.py file with the modified version 
 
 1. Prerequisites
 First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
