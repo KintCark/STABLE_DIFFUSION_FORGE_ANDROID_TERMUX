@@ -46,7 +46,7 @@ cd ubuntu-in-termux && ./startubuntu.sh
 
 THEN PASTE BOTTOM COMMAND 
 cd ubuntu-in-termux && ./startubuntu.sh
-cd stable-diffusion-webui-forge && python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --attention-split --all-in-fp16 --vae-in-cpu --disable-model-loading-ram-optimization --unet-in-fp8-e4m3fn
+cd stable-diffusion-webui-forge && python launch.py --always-cpu --skip-torch-cuda-test --always-offload-from-vram --opt-split-attention-v1 --all-in-fp16 --vae-in-cpu --disable-model-loading-ram-optimization --unet-in-fp8-e4m3fn --precision full --skip-load-model-at-start
 
 Use new termux 1.9.1 beta it's the latest we st released version and stable
 
