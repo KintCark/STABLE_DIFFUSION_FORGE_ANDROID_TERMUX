@@ -1,4 +1,4 @@
-I fixed it all u gota do is navigate to the modules folder and replace the launch_utils.py file with the modified version 
+I fixed it all u gota do is navigate to the modules folder and replace the launch_utils.py file with the modified version just tap Code
 
 1. Prerequisites
 First you have to install Termux and install PRoot. Then install and login to Ubuntu in PRoot
